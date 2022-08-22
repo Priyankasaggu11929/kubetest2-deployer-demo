@@ -3,7 +3,7 @@ package main
 import (
 	"sigs.k8s.io/kubetest2/pkg/app"
 
-	"github.com/ppc64le-cloud/kubetest2-plugins/kubetest2-aks/deployer"
+	"github.com/Priyankasaggu11929/kubetest2-deployer-demo/kubetest2-aks/deployer"
 )
 
 func main() {

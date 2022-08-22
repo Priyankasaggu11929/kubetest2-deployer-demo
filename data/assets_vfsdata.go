@@ -23,6 +23,53 @@ var Assets = func() http.FileSystem {
 			name:    "/",
 			modTime: time.Time{},
 		},
+		"/azureaks": &vfsgen۰DirInfo{
+			name:    "azureaks",
+			modTime: time.Time{},
+		},
+		"/azureaks/aks-cluster.tf": &vfsgen۰CompressedFileInfo{
+			name:             "aks-cluster.tf",
+			modTime:          time.Time{},
+			uncompressedSize: 846,
+
+			compressedContent: []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x02\xff\x8c\x92\x3f\x8f\xd4\x30\x10\xc5\x7b\x7f\x8a\x91\x45\x4b\x04\x4b\x43\x93\xee\x1a\xea\x13\xa2\x1c\x4d\xec\xd9\xc8\x4a\x62\x5b\x33\x76\x40\xb7\xda\xef\x8e\xf2\x8f\xdd\x45\x1c\x77\x2e\x3d\xef\xbd\xf9\xe5\xc5\xc2\x9a\xaa\x38\x06\x2b\x14\x7d\x9a\x30\x73\xb1\x60\xb3\xf0\x39\xfc\xb2\x70\xb9\x1a\x93\x25\xcd\xc1\xb3\x80\xa5\x97\x2a\x2c\x93\x85\x8b\x01\x38\x33\x95\x2a\xac\x8b\xe6\x6a\xcc\x2d\x68\x57\xe1\x71\x83\xbd\xa4\x9a\x2d\x58\xcf\x67\xaa\x63\xd9\xec\x91\x26\x86\xe5\xb4\x60\x3f\x5c\x6e\xcb\x9b\x6d\x75\x13\xfc\xf5\xa3\xf4\xd6\x00\x8c\xc9\x51\x09\x29\x2e\xca\x1f\xac\x05\xbe\x3f\xc3\xc9\x1a\x03\x50\xa8\x57\x68\xd7\x38\x00\x8e\x73\x90\x14\x27\x8e\x65\x51\x3e\xf1\x94\x16\xf7\x2b\x70\x43\xed\x58\x22\x17\x56\x74\x63\xd5\xc2\xf2\x2a\xe0\xdd\xf9\x0f\x2b\x0d\xfa\x00\xfb\xe0\xfa\x77\x25\xcd\xbe\xaf\x39\x4c\x06\xe0\x51\x81\x2b\xc4\x9b\xfe\x45\x65\x00\x7c\x54\xdc\x88\xde\x45\x3c\x7c\xd5\xb5\xc5\x3d\x05\x63\xf2\x8c\x39\xa5\x71\x2f\xf4\xef\x02\xda\x5b\x41\xdb\x7c\xd1\xbb\x54\x63\x39\xe6\x9f\xd7\xfb\x79\x42\x0d\x2f\x7c\xef\x7b\x2e\x14\x3d\x89\xc7\xa7\x13\xce\xa7\xcd\x9e\x14\x7d\xd0\x61\xd5\x62\xdf\x41\x0b\x5f\x3e\xad\xff\xcb\x00\x28\xcb\x1c\x1c\x63\x96\x10\x5d\xc8\x74\x20\xb9\x31\x70\x2c\x18\xfc\x1e\x3c\x93\x34\x94\xf3\x37\x7f\x3f\x55\x76\xc2\x65\x9f\x66\x52\xfd\x99\xc4\x1f\xc9\x92\x46\xc6\x8e\x94\x3d\x92\x73\xac\x8a\x2e\xc5\x22\x7f\x3e\x9a\x23\x75\x23\x7b\x68\xa1\x48\xe5\xc3\xf5\xde\x87\xf6\x3b\x00\x00\xff\xff\x9e\x19\x70\xbd\x4e\x03\x00\x00"),
+		},
+		"/azureaks/outputs.tf": &vfsgen۰CompressedFileInfo{
+			name:             "outputs.tf",
+			modTime:          time.Time{},
+			uncompressedSize: 786,
+
+			compressedContent: []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x02\xff\xac\xd1\x4d\x4e\xc3\x30\x10\x86\xe1\xbd\x4f\x61\x35\xfb\x88\x0b\x70\x16\xcb\xb8\x5f\x8a\xd5\xd4\x8e\xe6\xa7\x15\x20\xee\x8e\x86\xd4\xa2\x34\x02\x09\x99\x75\xc6\xcf\xab\xcc\x54\x95\x45\xc5\xef\x08\x5c\x95\x12\xc2\x81\xaa\x2e\xa1\xc4\x13\x76\xfe\xcd\x79\x7f\x8e\xb3\xc2\x3f\xfa\xf8\xaa\x04\x3a\x85\xef\x83\xe3\x1e\x53\xd4\x59\x46\x7b\xe0\xde\x9d\x6b\xde\x51\x9f\x40\x05\x02\x0e\x69\x56\x16\xd0\x2f\xe6\x76\xf8\x47\xf7\xb9\xb2\xac\xc8\x5f\x14\xfb\x14\x52\x2d\x53\x3e\x8c\x0f\xa3\x19\x66\x0e\xbe\xa9\x69\xce\x28\x12\x8e\x78\x31\x7b\xe8\xc1\xbf\x28\x37\x78\x8b\xdc\x35\x12\x48\xf2\x94\x53\x14\xfc\x57\xeb\x86\x5c\x9b\xb7\x47\xb8\x4e\x77\xed\x2c\x50\xbc\xd8\x6b\x46\xe1\x2c\xf9\x6c\x82\x90\xe2\x7e\x89\xeb\x9d\x95\x41\xed\xd6\x5d\xbf\xd7\xa0\xeb\x22\x37\xa1\x25\x32\x5f\x2a\xed\xbb\x43\x0d\xfa\x0c\x7d\x04\x00\x00\xff\xff\x91\x6c\xcf\x41\x12\x03\x00\x00"),
+		},
+		"/azureaks/terraform.tfvars": &vfsgen۰FileInfo{
+			name:    "terraform.tfvars",
+			modTime: time.Time{},
+			content: []byte("\x61\x70\x70\x49\x64\x20\x20\x20\x20\x3d\x20\x22\x62\x32\x33\x33\x39\x38\x62\x61\x2d\x39\x32\x64\x37\x2d\x34\x39\x37\x33\x2d\x62\x32\x35\x35\x2d\x34\x61\x37\x62\x39\x62\x32\x34\x63\x32\x35\x66\x22\x0a\x70\x61\x73\x73\x77\x6f\x72\x64\x20\x3d\x20\x22\x54\x2d\x58\x38\x51\x7e\x6e\x68\x39\x77\x73\x34\x58\x74\x62\x4f\x47\x53\x56\x50\x41\x7e\x55\x67\x7e\x7e\x49\x51\x72\x4f\x7e\x76\x55\x4b\x46\x73\x78\x63\x31\x70\x22\x0a"),
+		},
+		"/azureaks/variables.tf": &vfsgen۰CompressedFileInfo{
+			name:             "variables.tf",
+			modTime:          time.Time{},
+			uncompressedSize: 175,
+
+			compressedContent: []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x02\xff\x9c\xcc\x31\x0a\x02\x31\x10\x85\xe1\x7e\x4e\xf1\xc8\x3d\x2c\xc4\x4a\x2c\x3d\xc1\x6c\xf6\x15\x03\x21\x3b\xcc\x24\x2b\x28\x7b\x77\x1b\xd1\xde\xf2\x2f\xfe\x6f\xd7\x30\x5d\x1a\x51\xd4\xfd\xba\x16\xbc\x04\x58\x99\x35\xcc\x87\x6d\x1d\x27\x94\xf3\x73\x06\x71\x9b\x0b\xa3\x73\x30\x71\x67\xec\x56\x89\x4b\x9b\x39\x18\xc8\x4f\x7b\x58\xaf\xe6\xda\x8a\x1c\x22\x3f\xda\x35\xf3\xb1\xc5\x9f\xfa\xf7\x96\x43\xde\x01\x00\x00\xff\xff\xc6\xbf\xf2\xe4\xaf\x00\x00\x00"),
+		},
+		"/azureaks/versions.tf": &vfsgen۰CompressedFileInfo{
+			name:             "versions.tf",
+			modTime:          time.Time{},
+			uncompressedSize: 157,
+
+			compressedContent: []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x02\xff\x4c\xcd\xb1\x0e\xc2\x30\x0c\x04\xd0\xdd\x5f\x71\xca\x07\x84\x82\x50\xb7\xf0\x2b\x28\x6a\x8d\x9a\xa1\xb8\x5c\x48\x07\x50\xff\x1d\x95\x66\xc8\xe0\xc1\x77\x4f\xba\xb7\x92\xf1\x61\x9c\xf1\x15\x80\xfa\x2a\x89\x3a\xde\x17\xda\x9a\x46\x65\xfe\xc7\x40\xfc\x14\x2a\x67\x84\xfa\x03\xd9\x0a\x07\x05\x02\xdc\x14\xf3\x94\x06\xe3\x72\xaa\xcc\x55\xb3\x2a\x73\xb2\xe7\x6e\x2e\xbe\xef\x7d\x77\x14\x9b\xec\xd7\xce\x35\xf0\x16\xd0\xf9\xf3\xd5\xc9\x26\xf2\x0b\x00\x00\xff\xff\x7a\x76\x93\xe7\x9d\x00\x00\x00"),
+		},
+	}
+	fs["/"].(*vfsgen۰DirInfo).entries = []os.FileInfo{
+		fs["/azureaks"].(os.FileInfo),
+	}
+	fs["/azureaks"].(*vfsgen۰DirInfo).entries = []os.FileInfo{
+		fs["/azureaks/aks-cluster.tf"].(os.FileInfo),
+		fs["/azureaks/outputs.tf"].(os.FileInfo),
+		fs["/azureaks/terraform.tfvars"].(os.FileInfo),
+		fs["/azureaks/variables.tf"].(os.FileInfo),
+		fs["/azureaks/versions.tf"].(os.FileInfo),
 	}
 
 	return fs
@@ -38,6 +85,21 @@ func (fs vfsgen۰FS) Open(path string) (http.File, error) {
 	}
 
 	switch f := f.(type) {
+	case *vfsgen۰CompressedFileInfo:
+		gr, err := gzip.NewReader(bytes.NewReader(f.compressedContent))
+		if err != nil {
+			// This should never happen because we generate the gzip bytes such that they are always valid.
+			panic("unexpected error reading own gzip compressed bytes: " + err.Error())
+		}
+		return &vfsgen۰CompressedFile{
+			vfsgen۰CompressedFileInfo: f,
+			gr:                        gr,
+		}, nil
+	case *vfsgen۰FileInfo:
+		return &vfsgen۰File{
+			vfsgen۰FileInfo: f,
+			Reader:          bytes.NewReader(f.content),
+		}, nil
 	case *vfsgen۰DirInfo:
 		return &vfsgen۰Dir{
 			vfsgen۰DirInfo: f,
@@ -48,12 +110,107 @@ func (fs vfsgen۰FS) Open(path string) (http.File, error) {
 	}
 }
 
-// We already imported "compress/gzip" and "io/ioutil", but ended up not using them. Avoid unused import error.
-var _ = gzip.Reader{}
-var _ = ioutil.Discard
+// vfsgen۰CompressedFileInfo is a static definition of a gzip compressed file.
+type vfsgen۰CompressedFileInfo struct {
+	name              string
+	modTime           time.Time
+	compressedContent []byte
+	uncompressedSize  int64
+}
 
-// We already imported "bytes", but ended up not using it. Avoid unused import error.
-var _ = bytes.Reader{}
+func (f *vfsgen۰CompressedFileInfo) Readdir(count int) ([]os.FileInfo, error) {
+	return nil, fmt.Errorf("cannot Readdir from file %s", f.name)
+}
+func (f *vfsgen۰CompressedFileInfo) Stat() (os.FileInfo, error) { return f, nil }
+
+func (f *vfsgen۰CompressedFileInfo) GzipBytes() []byte {
+	return f.compressedContent
+}
+
+func (f *vfsgen۰CompressedFileInfo) Name() string       { return f.name }
+func (f *vfsgen۰CompressedFileInfo) Size() int64        { return f.uncompressedSize }
+func (f *vfsgen۰CompressedFileInfo) Mode() os.FileMode  { return 0444 }
+func (f *vfsgen۰CompressedFileInfo) ModTime() time.Time { return f.modTime }
+func (f *vfsgen۰CompressedFileInfo) IsDir() bool        { return false }
+func (f *vfsgen۰CompressedFileInfo) Sys() interface{}   { return nil }
+
+// vfsgen۰CompressedFile is an opened compressedFile instance.
+type vfsgen۰CompressedFile struct {
+	*vfsgen۰CompressedFileInfo
+	gr      *gzip.Reader
+	grPos   int64 // Actual gr uncompressed position.
+	seekPos int64 // Seek uncompressed position.
+}
+
+func (f *vfsgen۰CompressedFile) Read(p []byte) (n int, err error) {
+	if f.grPos > f.seekPos {
+		// Rewind to beginning.
+		err = f.gr.Reset(bytes.NewReader(f.compressedContent))
+		if err != nil {
+			return 0, err
+		}
+		f.grPos = 0
+	}
+	if f.grPos < f.seekPos {
+		// Fast-forward.
+		_, err = io.CopyN(ioutil.Discard, f.gr, f.seekPos-f.grPos)
+		if err != nil {
+			return 0, err
+		}
+		f.grPos = f.seekPos
+	}
+	n, err = f.gr.Read(p)
+	f.grPos += int64(n)
+	f.seekPos = f.grPos
+	return n, err
+}
+func (f *vfsgen۰CompressedFile) Seek(offset int64, whence int) (int64, error) {
+	switch whence {
+	case io.SeekStart:
+		f.seekPos = 0 + offset
+	case io.SeekCurrent:
+		f.seekPos += offset
+	case io.SeekEnd:
+		f.seekPos = f.uncompressedSize + offset
+	default:
+		panic(fmt.Errorf("invalid whence value: %v", whence))
+	}
+	return f.seekPos, nil
+}
+func (f *vfsgen۰CompressedFile) Close() error {
+	return f.gr.Close()
+}
+
+// vfsgen۰FileInfo is a static definition of an uncompressed file (because it's not worth gzip compressing).
+type vfsgen۰FileInfo struct {
+	name    string
+	modTime time.Time
+	content []byte
+}
+
+func (f *vfsgen۰FileInfo) Readdir(count int) ([]os.FileInfo, error) {
+	return nil, fmt.Errorf("cannot Readdir from file %s", f.name)
+}
+func (f *vfsgen۰FileInfo) Stat() (os.FileInfo, error) { return f, nil }
+
+func (f *vfsgen۰FileInfo) NotWorthGzipCompressing() {}
+
+func (f *vfsgen۰FileInfo) Name() string       { return f.name }
+func (f *vfsgen۰FileInfo) Size() int64        { return int64(len(f.content)) }
+func (f *vfsgen۰FileInfo) Mode() os.FileMode  { return 0444 }
+func (f *vfsgen۰FileInfo) ModTime() time.Time { return f.modTime }
+func (f *vfsgen۰FileInfo) IsDir() bool        { return false }
+func (f *vfsgen۰FileInfo) Sys() interface{}   { return nil }
+
+// vfsgen۰File is an opened file instance.
+type vfsgen۰File struct {
+	*vfsgen۰FileInfo
+	*bytes.Reader
+}
+
+func (f *vfsgen۰File) Close() error {
+	return nil
+}
 
 // vfsgen۰DirInfo is a static definition of a directory.
 type vfsgen۰DirInfo struct {

@@ -6,17 +6,16 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ppc64le-cloud/kubetest2-plugins/pkg/providers"
-	"github.com/ppc64le-cloud/kubetest2-plugins/pkg/providers/azureaks"
-	"github.com/ppc64le-cloud/kubetest2-plugins/pkg/terraform"
-	"github.com/ppc64le-cloud/kubetest2-plugins/pkg/utils"
+	"github.com/Priyankasaggu11929/kubetest2-deployer-demo/pkg/providers"
+	"github.com/Priyankasaggu11929/kubetest2-deployer-demo/pkg/providers/azureaks"
+	"github.com/Priyankasaggu11929/kubetest2-deployer-demo/pkg/terraform"
+	"github.com/Priyankasaggu11929/kubetest2-deployer-demo/pkg/utils"
 	"github.com/spf13/pflag"
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/kubetest2/pkg/types"
 )
 
 const (
-	//Name = "tf"
 	Name = "aks"
 )
 

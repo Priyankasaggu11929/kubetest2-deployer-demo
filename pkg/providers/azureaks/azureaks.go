@@ -5,8 +5,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/ppc64le-cloud/kubetest2-plugins/pkg/providers"
-	"github.com/ppc64le-cloud/kubetest2-plugins/pkg/utils"
+	"github.com/Priyankasaggu11929/kubetest2-deployer-demo/pkg/providers"
+	"github.com/Priyankasaggu11929/kubetest2-deployer-demo/pkg/utils"
 	"github.com/spf13/pflag"
 )
 
