@@ -1,2 +1,0 @@
-appId    = "REDACTED"
-password = "REDACTED"
